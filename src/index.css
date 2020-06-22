@@ -13,5 +13,52 @@ code {
 }
 
 .image-container{
-  width:300px;
+  width:20%;
+}
+
+img{
+  width:100%;
+}
+
+header{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.search-bar-container{
+  background-color:grey;
+  text-align: center;
+}
+
+fieldset{
+  border:none;
+}
+
+.filter-container{
+  background-color: rgb(184, 191, 199);
+  display:flex;
+  justify-content: center;
+}
+
+li{
+  list-style: none;
+}
+
+.title{
+  text-align: center;
+  font-size:24px;
+  font-style: bold;
+}
+
+.book section{
+  display:flex;
+}
+
+.author,.price,.description{
+  text-align: center;
+}
+
+.book-details{
+  width:80%;
 }
